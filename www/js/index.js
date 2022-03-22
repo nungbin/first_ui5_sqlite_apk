@@ -1,14 +1,12 @@
 $(document).ready(function(){
 
-var myDB;
-//Open Database Connection
-document.addEventListener("deviceready",onDeviceReady,false);
-function onDeviceReady(){
-myDB = window.sqlitePlugin.openDatabase({name: "mySQLite.db", location: 'default'});
-window.sqliteDB = myDB;
-    
-alert("Device Ready Event");
-}
+  //Open Database Connection
+  document.addEventListener("deviceready",onDeviceReady,false);
+  function onDeviceReady(){
+    window.sqliteDB = window.sqlitePlugin.openDatabase({name: "mySQLite.db", location: 'default'});
+    alert("Device Ready Event");
+  }
+  
 //Create new table
 $("#createTable").click(function(){
     myDB.transaction(function(transaction) {
