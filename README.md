@@ -1,6 +1,10 @@
 # first_ui5_sqlite_apk
 First SAPUI5 Mobile Apk with SQLite
 
+A big THANK-YOU to https://github.com/nicolinden/ui5app who provides a very good example of making UI5 work with Cordova.
+
+Download UI5 Runtime Mobile: https://openui5.org/releases
+
 Learn how to implement SQLite storage on your Cordova (PhoneGap) Projects for storing data offline.
 Article: https://codesundar.com/cordova-sqlite-storage/
 
